@@ -45,8 +45,6 @@ $defaultData = [
     ["id" => "cat_4", "title" => "🎥 影音·直播", "isPrivate" => false, "links" => [
         ["name" => "YouTube", "url" => "https://www.youtube.com/"],
         ["name" => "西瓜视频", "url" => "https://www.ixigua.com/"],
-        ["name" => "MoonTV", "url" => "http://freet.cc:3000/"],
-        ["name" => "电视侠", "url" => "http://live.tvfix.org/list/channel/%E5%8D%AB%E8%A7%86%E9%AB%98%E6%B8%85"],
         ["name" => "无线新闻", "url" => "https://news.tvb.com/live/inews/"],
         ["name" => "線上看(直播)", "url" => "https://tv.wfuapp.com/2019/12/ctitv-news-live.html"],
         ["name" => "哔哩哔哩", "url" => "https://www.bilibili.com/"],
