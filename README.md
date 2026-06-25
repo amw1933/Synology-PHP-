@@ -55,34 +55,6 @@ echo password_hash("你的密码", PASSWORD_DEFAULT);
 
 记得点击页面底部的 "确认应用到群晖" 按钮以保存数据。
 
-💡 常见问题 (FAQ)
-Q: 为什么图标不显示？
-A: 请检查服务器是否禁用了 file_get_contents 或 allow_url_fopen 选项。
-
-Q: 怎么添加自定义 Emoji？
-A: 在添加链接名称时，直接在前面加上 Emoji 即可（如 🚀 我的站点）。
-
-Q: 我想修改天气位置？
-A: 修改 JS 部分 CONFIG 常量中的 DEFAULT_LAT 和 DEFAULT_LON 坐标即可。
-
-📜 许可
-本项目基于 MIT 协议开源。
-
-给你的建议：
-安全性警告：在部署到公网之前，建议在群晖的 Nginx/Apache 反向代理中对该目录添加一层 Basic Auth 验证，双重保险。
-
-代码优化：如果你的代码量很大，建议后续将 links.json 的路径改为可配置，或者将 JS 部分单独拆分出一个 app.js 文件，这样 GitHub 上的结构会更专业。
-
-上传 GitHub：
-
-在 GitHub 新建仓库。
-
-将你的 PHP 文件重命名为 index.php。
-
-在本地运行 git init, git add ., git commit -m "initial commit", git remote add origin <你的仓库地址>, git push -u origin main 即可推送到仓库。
-
-
-
 
 🚀 群晖 (Synology) 部署指南
 第一步：准备 Web 环境
